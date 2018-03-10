@@ -14,9 +14,13 @@ public class StartingBm {
 		//inANDdec.initDouble();
 		//inANDdec.initBoolean();
 		//--------------------------------------
-		castingm.byteToInt();
 		castingm.byteToShort();
-				
+		castingm.byteToInt();
+		castingm.byteToLong();
+		castingm.byteToFloat();
+		castingm.byteToDouble();
+		//--------------------------------------
+		
 	}
 
 }
