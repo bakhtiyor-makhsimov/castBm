@@ -15,6 +15,7 @@ public class StartingBm {
 		//inANDdec.initBoolean();
 		//--------------------------------------
 		castingm.byteToInt();
+		castingm.byteToShort();
 				
 	}
 
