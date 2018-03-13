@@ -12,7 +12,7 @@ public class InitAndDeclaration {
 	public char initChar( ) {
 		System.out.println("This is default value for char: " + p_chr);
 		p_chr = 'H';
-		System.out.println("chr = 'A'; This is declared value for char: " + p_chr);
+		System.out.println("chr = 'H'; This is declared value for char: " + p_chr);
 		System.out.println("-----------------------------------------------------");
 		return p_chr;
 	}
@@ -26,7 +26,7 @@ public class InitAndDeclaration {
 	public short initShort( ) {	
 		System.out.println("This is default value for short: " + p_shrt);
 		p_shrt = 32_766;
-		System.out.println("shrt = 37_766; This is declaerd value for short: " + p_shrt);
+		System.out.println("shrt = 37_766; This is declared value for short: " + p_shrt);
 		System.out.println("-----------------------------------------------------");
 		return p_shrt;
 	}
