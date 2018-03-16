@@ -37,12 +37,15 @@ public class StartingBm {
 //		castingcharto.charToLong();
 //		castingcharto.charToFloat();
 //		castingcharto.charToDouble();
-		castingcharto.charToByte();
-		castingcharto.charToShort();
+//		castingcharto.charToByte();
+//		castingcharto.charToShort();
 //		--------------------------------------
 //		castingintto.intToLong();
 //		castingintto.intToFloat();
 //		castingintto.intToDouble();
+		castingintto.intToByte();
+		castingintto.intToShort();
+		castingintto.intToChar();
 //		--------------------------------------
 //		castinglongto.longToFloat();
 //		castinglongto.longToDouble();
