@@ -1,4 +1,7 @@
-/CastingBm.class
+/CastingByteTo.class
+/CastingCharTo.class
+/CastingIntTo.class
+/CastingShortTo.class
 /DoSomething.class
 /InitAndDeclaration.class
 /Main.class
@@ -9,7 +12,3 @@
 /StartingBm.class
 /Welcomer.class
 /WelcomerBm.class
-/CastingByteTo.class
-/CastingShortTo.class
-/CastingCharTo.class
-/CastingIntTo.class

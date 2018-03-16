@@ -36,6 +36,7 @@ public class StartingBm {
 		castingintto.intToLong();
 		castingintto.intToFloat();
 		castingintto.intToDouble();
+//		git test
 	}
 
 }
