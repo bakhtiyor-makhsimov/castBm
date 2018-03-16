@@ -20,4 +20,14 @@ public class CastingCharTo extends StartingBm{
 		System.out.println("double dbl3 = char; char implicitly casted to double, and value is :" + p_dbl3);
 		System.out.println("-------------------------------------------");
 	}
+	public void charToByte() {
+		byte p_bt3 = (byte)inANDdec.initChar();
+		System.out.println("byte bt3 = (byte)char; char explicitly casted to byte, and value is :" + p_bt3);
+		System.out.println("-------------------------------------------");
+	}
+	public void charToShort() {
+		short p_shrt3 = (short)inANDdec.initChar();
+		System.out.println("short shrt3 = (short)char; char explicitly casted to short, and value is :" + p_shrt3);
+		System.out.println("-------------------------------------------");
+	}
 }

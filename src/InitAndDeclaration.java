@@ -18,14 +18,14 @@ public class InitAndDeclaration {
 	}
 	public byte initByte( ) {
 		System.out.println("This is default value for byte: " + p_bt);
-		p_bt = 126;
+		p_bt = 127;
 		System.out.println("bt = 126; This is declated value for byte: " + p_bt);
 		System.out.println("-----------------------------------------------------");
 		return p_bt;
 	}
 	public short initShort( ) {	
 		System.out.println("This is default value for short: " + p_shrt);
-		p_shrt = 32_766;
+		p_shrt = 32_767; //32_767
 		System.out.println("shrt = 37_766; This is declared value for short: " + p_shrt);
 		System.out.println("-----------------------------------------------------");
 		return p_shrt;

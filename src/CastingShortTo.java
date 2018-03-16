@@ -20,5 +20,15 @@ public class CastingShortTo extends StartingBm {
 		System.out.println("double dbl2 = shrt; short implicitly casted to double, and value is :" + p_dbl2);
 		System.out.println("-------------------------------------------");
 	}
-
+	public void shortToByte() {
+		byte p_bt2 = (byte)inANDdec.initShort();
+		System.out.println("byte bt2 = (byte)shrt; short explicitly casted to byte, and value is :" + p_bt2);
+		System.out.println("-------------------------------------------");
+	}
+	public void shortToChar() {
+		char p_chr2 = (char)inANDdec.initShort();
+		System.out.println("char chr2 = (char)shrt; short explicitly casted to char, and value is :" + p_chr2);
+		System.out.println("-------------------------------------------");
+	}
+	
 }

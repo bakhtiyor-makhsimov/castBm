@@ -17,12 +17,17 @@ public class CastingByteTo extends StartingBm {
 	}
 	public void byteToFloat() {
 		float p_flt1 = inANDdec.initByte();
-		System.out.println("float flt1 = bt; byte implicitly to casted to float, and value is :" + p_flt1);
+		System.out.println("float flt1 = bt; byte implicitly casted to float, and value is :" + p_flt1);
 		System.out.println("-------------------------------------------");
 	}
 	public void byteToDouble() {
 		double p_dbl1 = inANDdec.initByte();
-		System.out.println("double dbl1 = bt; byte implicitly to casted to double, and value is :" + p_dbl1);
+		System.out.println("double dbl1 = bt; byte implicitly casted to double, and value is :" + p_dbl1);
+		System.out.println("-------------------------------------------");
+	}
+	public void byteToChar() {
+		char p_chr1 = (char)inANDdec.initByte();
+		System.out.println("char chr1 = (char)bt; byte explicitly casted to char, and value is :" + p_chr1);
 		System.out.println("-------------------------------------------");
 	}
 }
