@@ -8,6 +8,7 @@ public class StartingBm {
 	static CastingIntTo castingintto = new CastingIntTo();
 	static CastingLongTo castinglongto = new CastingLongTo();
 	static CastingFloatTo castingfloatto = new CastingFloatTo();
+	static CastingDoubleTo castingdoubleto = new CastingDoubleTo();
 	
 	public static void main(String[] args) {
 //		inANDdec.initChar();
@@ -43,14 +44,30 @@ public class StartingBm {
 //		castingintto.intToLong();
 //		castingintto.intToFloat();
 //		castingintto.intToDouble();
-		castingintto.intToByte();
-		castingintto.intToShort();
-		castingintto.intToChar();
+//		castingintto.intToByte();
+//		castingintto.intToShort();
+//		castingintto.intToChar();
 //		--------------------------------------
 //		castinglongto.longToFloat();
 //		castinglongto.longToDouble();
+//		castinglongto.longToByte();
+//		castinglongto.longToShort();
+//		castinglongto.longToChar();
+//		castinglongto.longToInt();
 //		--------------------------------------
 //		castingfloatto.floatToDouble();
+//		castingfloatto.floatToByte();
+//		castingfloatto.floatToShort();
+//		castingfloatto.floatToChar();
+//		castingfloatto.floatToInt();
+//		castingfloatto.floatToLong();
+//		--------------------------------------
+		castingdoubleto.doubleToByte();
+		castingdoubleto.doubleToShort();
+		castingdoubleto.doubleToChar();
+		castingdoubleto.doubleToInt();
+		castingdoubleto.doubleToLong();
+		castingdoubleto.doubleToFloat();
 	}
 
 }
